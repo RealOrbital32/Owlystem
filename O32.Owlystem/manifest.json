@@ -1,0 +1,9 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "Orbital 32 (a.k.a. cigtu), classic by Classic",
+  "name": "a dream of home (but really bad)",
+  "uniqueName": "O32.Owlystem",
+  "version": "1.0.0",
+  "owmlVersion": "2.7.5",
+  "dependencies": [ "xen.NewHorizons" ]
+}

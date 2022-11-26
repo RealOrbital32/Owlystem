@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Twisting Climate",
+	"starSystem": "O32.Owlystem",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 170,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 5000,
+		"primaryBody": "Red Dwarf",
+		"isTidallyLocked": true,
+		"isMoon": false,
+		"siderealPeriod": 2.5
+	},
+	"Atmosphere": {
+		"size": 260,
+		"atmosphereTint": {
+			"r": 75,
+			"g": 62,
+			"b": 194,
+			"a": 255
+		}
+	},
+	"Water": {
+		"size": 215
+	}
+}

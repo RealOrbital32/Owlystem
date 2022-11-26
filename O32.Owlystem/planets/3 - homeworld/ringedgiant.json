@@ -1,0 +1,54 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ringed Giant",
+	"starSystem": "O32.Owlystem",
+	"Base": {
+		"surfaceSize": 800,
+		"surfaceGravity": 20,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 16500,
+		"trueAnomaly": 107,
+		"primaryBody": "Red Dwarf",
+		"isMoon": false,
+		"siderealPeriod": 3.5
+	},
+	"Atmosphere": {
+		"size": 800,
+		"fogSize": 800,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 49,
+			"g": 222,
+			"b": 181,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 49,
+			"g": 222,
+			"b": 181,
+			"a": 255
+		},
+		"clouds": {
+			"texturePath": "planets/assets/parentplanet.png",
+			"capPath": "planets/assets/parentplanet_c.png",
+			"outerCloudRadius": 799,
+			"innerCloudRadius": 629,
+			"tint": {
+				"r": 85,
+				"g": 135,
+				"b": 127,
+				"a": 255
+			}
+		}
+	},
+	"Rings": [
+		{
+			"innerRadius": 1050,
+			"outerRadius": 1550,
+			"texture": "planets/assets/parentplanet_r.png"
+		}
+	]
+}

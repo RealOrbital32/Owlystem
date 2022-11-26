@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Red Dwarf",
+	"starSystem": "O32.Owlystem",
+	"Base": {
+		"surfaceGravity": 100,
+		"surfaceSize": 2100,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared",
+		"centerOfSolarSystem": true
+	},
+	"Orbit": {
+		"isStatic": true
+	},
+	"Atmosphere": {
+		"size": 2100,
+		"fogTint": {
+			"r": 199,
+			"g": 67,
+			"b": 58,
+			"a": 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 2100
+	},
+	"Star": {
+		"size": 2000,
+		"tint": {
+			"r": 199,
+			"g": 67,
+			"b": 58,
+			"a": 255
+		},
+		"solarLuminosity": 0.8,
+		"lightRadius": 50000
+	}
+}

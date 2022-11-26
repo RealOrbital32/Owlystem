@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "North Side",
+	"starSystem": "O32.Owlystem",
+	"Base": {
+		"surfaceSize": 170,
+		"hasMapMarker": false,
+		"ambientLight": 0.3
+	},
+	"Orbit": {
+		"semiMajorAxis": 5000,
+		"primaryBody": "Red Dwarf",
+		"isTidallyLocked": true,
+		"isMoon": false,
+		"siderealPeriod": 2
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/north.png",
+		"textureMap": "planets/assets/north_t.png",
+		"minHeight": 130,
+		"maxHeight": 250
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
+}
